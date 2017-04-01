@@ -1,0 +1,25 @@
+{
+  "name": "Shopify Admin Translator",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This translates Shopify Admin into multiple languages",
+  "browser_action": {
+    "default_popup": "src/popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.myshopify.com/*",
+        "https://*.myshopify.io/*"
+      ],
+      "js": [
+        "src/tree.js",
+        "src/locales/fr.js",
+        "src/main.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
