@@ -48,31 +48,46 @@ LANGUAGES['fr'] = {
       'export': 'Exporter',
       'import': 'Importer',
       'save': 'Sauvegarder',
+      'edit': 'Éditer',
+      'cancel': 'Annuler',
+      'change': 'Changer',
+      'destroy': "Détruire",
+      'post': 'Envoyer',
+      'filter': 'Filtrer'
     }
   },
 
-  'home': {
+  'modal': {
+    'titles': {
+      'capture-payment': "Capturer un paiement",
+    },
+  },
+
+  'home-index': {
+    'cards': {
+      'api_buy_button_create_first_embed_card': '',
+      'multi_image_buy_button_announcement_card': '',
+    },
+
     'today-features': {
       "todays-total-sales": "Total des ventes aujourd'hui",
       "todays-visits": "Nombre de visites aujourd'hui",
       "todays-orders": "Nombre de commandes aujourd'hui",
     },
 
-    'cards': {
-      'api_buy_button_create_first_embed_card': {
-        'title': "Afficher un produit sur votre site web ou votre blog",
-        'buttons': {
-          'create-button': "Créer un Buy Button",
-        }
-      },
-      'multi_image_buy_button_announcement_card': {
-        'title': "Le Buy Button affiche maintenant plusieurs images",
-        'message': "Pour afficher plusieurs images, créez un nouveau Buy Button et afficher le sur votre site web ou votre blog.",
-        'buttons': {
-          'create-buy-button': "Créer un Buy Button",
-          'learn-more': "En apprendre plus"
-        }
-      }
+    'titles': {
+      'total-sales': "Total des ventes",
+      'top-products': "Meilleurs produits",
+    },
+
+    'buttons': {
+      'all-channels': "Tous les cannaux",
+      'online-store': "Boutique en ligne",
+      'view-order': "Voir la commande",
+      'view-orders': "Voir les commandes",
+      'create-button': "Créer un Buy Button",
+      'create-buy-button': "Créer un Buy Button",
+      'learn-more': "En apprendre plus"
     }
   },
 
@@ -112,11 +127,67 @@ LANGUAGES['fr'] = {
         'paid': 'Payée',
         'pending': 'En attente',
         'refunded': 'Remboursée',
+        'authorized': "Authorisée"
       },
+    },
+
+    'filters': {
+      'status': "Statut",
+      'credit-card': "Carte de crédit",
+      'customer': "Client",
+      'payment-status': "Payment",
+      'fulfillment-status': "Statut de complétion",
+      'tagged-with': "Avec tags...",
+      'risk-level': "Niveau de risque",
     },
 
     'buttons': {
       'create-order': "Ajouter une commande",
     },
+  },
+
+  'orders-show': {
+    'buttons': {
+      'print': "Imprimer",
+      'cancel-order': "Canceller",
+      'archive': "Archiver",
+      'view-order-status-page': "Voir la page de statut de la commande",
+      'capture-payment': "Capturer",
+      'restock': "Restaurer l'inventaire",
+      'fulfill-items': "Compléter",
+    },
+
+    'titles': {
+      'order-details': 'Détails',
+      'unfulfilled': 'Non complétés',
+      'accept-payment': 'Paiement',
+      'fulfill-items': 'Compléter',
+      'risk-level': 'Niveau de risque'
+    },
+  },
+
+  'customers-show': {
+    'titles': {
+      'recent-orders': "Commandes récentes",
+      'default-address': "Addresse principale",
+      'contact': "Information",
+    },
+  },
+
+  'draft-orders-index': {
+    'buttons': {
+      'create-order': 'Créer une commande'
+    },
+
+    'empty': {
+      'title': 'Créer des commandes et factures',
+      'subtitle': 'Acceptez des commandes au téléphone, envoyez des factures par courriel et acceptez des paiements.'
+    }
+  },
+
+  'draft': {
+    'buttons': {
+      'save-draft-order': 'Sauvegarder la commande'
+    }
   },
 }

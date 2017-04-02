@@ -19,34 +19,46 @@ var TREE = {
 
   '.ui-feed': {
     '[data-handle]': {
-      '.home-card-content__title h3': 'home.cards.$data-handle.title',
-      '[data-button-id]': 'home.cards.$data-handle.buttons.$data-button-id',
+      '.home-card-content__message': 'home-index.cards.$data-handle',
     }
   },
 
+  '.modal': {
+    '#ModalTitle': 'modal.titles.$text',
+  },
+
   '.btn': 'general.buttons.$text',
+  '.btn.btn-destroy': 'general.buttons.destroy',
+  '.btn.obj-filter-btn': 'general.buttons.filter',
 
   '.page': {
     'header .ui-title-bar': {
-      '.btn': '$page.buttons.$text',
       '.ui-breadcrumbs .ui-breadcrumb__item': 'general.sections.$text',
       '.ui-title-bar__title': 'general.sections.$text',
     },
 
+    '.ui-empty-state': {
+      '.ui-empty-state__title': '$page.empty.title',
+      '.ui-empty-state__subtitle': '$page.empty.subtitle',
+    },
+
+    '.ui-heading': '$page.titles.$text',
+    '.ui-subheading': '$page.titles.$text',
+    '.next-heading': '$page.titles.$text',
     '.next-tab__list .next-tab': '$page.table.tabs.$text',
     'table th span': '$page.table.columns.$text',
     'span.badge': '$page.table.badges.$text',
     '.btn': '$page.buttons.$text',
-    '.table-filter-container input[name=query]': 'general.search.placeholder'
+    '.ui-popover .next-list__item': '$page.buttons.$text',
+    '.table-filter-container': {
+      'input[name=query]': 'general.search.placeholder',
+      '.ui-select option': '$page.filters.$text',
+    },
   },
 
   '.page-home-index': {
     '.home-today-feature': {
-      '.home-today-feature__label': 'home.today-features.$text',
+      '.home-today-feature__label': 'home-index.today-features.$text',
     },
-
-    '.next-card--home-notifications': {
-      '[data-button-id]': 'general.buttons.$data-button-id'
-    }
   },
 }

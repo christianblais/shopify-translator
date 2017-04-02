@@ -47,7 +47,13 @@ function translate_string(language, element, key, variables) {
   if (element.tagName === 'INPUT') {
     element.placeholder = value;
   } else {
-    element.textContent = value;
+    element.innerHTML = Array.from(element.childNodes).map(function(child) {
+      if (child.nodeType === 3 && child.textContent.trim() !== "") {
+        return child.textContent = value;
+      } else {
+        return child.outerHTML;
+      }
+    }).join(' ');
   }
 }
 
