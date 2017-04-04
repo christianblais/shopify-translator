@@ -3,6 +3,8 @@
 ### What is this?
 Shopify Admin Translator is a small chrome extension that tries to translate as much as it can from the Shopify Admin in different languages. It works by using standardized CSS selectors to select part of the application, translating them on the fly based on your selected language using simple javascript rules.
 
+![Shopify Admin translated in French](doc/images/readme-example-fr.png)
+
 ### Who is this for?
 This is best used by Shopify merchants for which English isn't their primary language. If you're a Shopify Partner or Expert who'd like to help or sell Shopify to non-English merchants, feel free to use this app as well, free of charge.
 
