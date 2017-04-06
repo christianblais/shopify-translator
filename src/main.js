@@ -41,7 +41,7 @@ function translate_string(language, element, key, variables) {
 
     value = value[part];
 
-    if (typeof value === 'undefined') { return; }
+    if (typeof value === 'undefined' || value === null) { return; }
   }
 
   if (element.tagName === 'INPUT') {
