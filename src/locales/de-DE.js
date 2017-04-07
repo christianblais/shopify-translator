@@ -10,7 +10,7 @@ LANGUAGES['de-DE'] = {
       'products': 'Produkte',
       'customers': 'Kunden',
       'reports': 'Berichte',
-      'discounts': 'Rabette',
+      'discounts': 'Rabatte',
       'sales-channels': 'Verkaufskanäle',
       'channels': 'Kanäle',
       'online_store': 'Onlineshop',
