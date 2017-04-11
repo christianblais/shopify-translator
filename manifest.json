@@ -15,6 +15,7 @@
       "js": [
         "src/tree.js",
         "src/locales/fr.js",
+        "src/locales/es.js",
         "src/locales/ja.js",
         "src/locales/de-DE.js",
         "src/main.js"
