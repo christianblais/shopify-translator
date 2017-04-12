@@ -4,7 +4,7 @@ LANGUAGES['es'] = {
   'general': {
     'sections': {
       'home': 'Inicio',
-      'orders': 'pedidos',
+      'orders': 'Pedidos',
       'drafts': 'Borrador de pedidos',
       'checkouts': 'Pagos',
       'products': 'Productos',
