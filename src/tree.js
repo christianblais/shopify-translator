@@ -49,6 +49,8 @@ var TREE = {
     'table th span': '$page.table.columns.$text',
     'span.badge': '$page.table.badges.$text',
     '.btn': '$page.buttons.$text',
+    'p': '$page.texts.$text',
+    '.next-label': '$page.texts.$text',
     '.ui-popover .next-list__item': '$page.buttons.$text',
     '.table-filter-container': {
       'input[name=query]': 'general.search.placeholder',

@@ -155,14 +155,29 @@ LANGUAGES['fr'] = {
       'capture-payment': "Capturer",
       'restock': "Restaurer l'inventaire",
       'fulfill-items': "Compléter",
+      'resend-email': "Réenvoyer le courriel",
+      'mark-as-paid': "Marquer comme payé",
     },
 
     'titles': {
       'order-details': 'Détails',
+      'conversion-details': 'Détails de conversion',
       'unfulfilled': 'Non complétés',
       'accept-payment': 'Paiement',
       'fulfill-items': 'Compléter',
-      'risk-level': 'Niveau de risque'
+      'risk-level': 'Niveau de risque',
+      'customer': 'Client',
+      'tags': 'Tags',
+      'order-contact': 'Contact',
+      'shipping-address': 'Adresse de livraison',
+      'billing-address': 'Adresse de facturation',
+      'timeline': 'Chronologie',
+      'payment-pending': 'Paiement en attente',
+    },
+
+    'texts': {
+      'show-comments': "Montrer les commentaires",
+      'same-as-shipping-address': "Identique à l'adresse de livraison",
     },
   },
 
@@ -187,7 +202,24 @@ LANGUAGES['fr'] = {
 
   'draft': {
     'buttons': {
-      'save-draft-order': 'Sauvegarder la commande'
-    }
+      'save-draft-order': 'Sauvegarder la commande',
+      'browse-products': "Parcourir les produits",
+      'add-custom-item': "Ajouter un article personnalisé",
+      'view-all-tags': "Voir tous les tags",
+      'add-discount': "Ajouter un rabais",
+      'add-shipping': "Ajouter du shipping",
+      'taxes': "Taxes",
+      'email-invoice': "Envoyer",
+      'mark-as-paid': "Marquer comme payé",
+      'mark-as-pending': "Marquer comme en attente",
+      'pay-with-credit-card': "Payer par carte de crédit",
+    },
+
+    'titles': {
+      'order-details': 'Détails',
+      'find-or-create-a-customer': 'Trouver ou créer un client',
+      'email-invoice': 'Envoyer la facture par courriel',
+      'accept-payment': 'Paiement',
+    },
   },
 }
