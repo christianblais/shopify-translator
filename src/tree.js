@@ -42,6 +42,14 @@ var TREE = {
       '.ui-empty-state__subtitle': '$page.empty.subtitle',
     },
 
+    '.ui-card#customer-card': {
+      '.ui-heading': 'shared.customer-card.$text',
+      '.ui-subheading': 'shared.customer-card.$text',
+      'p': 'shared.customer-card.$text',
+      'ul li': 'shared.customer-card.$text',
+      'a': 'shared.customer-card.$text',
+    },
+
     '.ui-heading': '$page.titles.$text',
     '.ui-subheading': '$page.titles.$text',
     '.next-heading': '$page.titles.$text',
