@@ -1,6 +1,6 @@
 {
   "name": "Shopify Admin Translator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "This translates Shopify Admin into multiple languages",
   "browser_action": {
@@ -15,7 +15,9 @@
       "js": [
         "src/tree.js",
         "src/locales/fr.js",
+        "src/locales/es.js",
         "src/locales/ja.js",
+        "src/locales/de-DE.js",
         "src/main.js"
       ]
     }

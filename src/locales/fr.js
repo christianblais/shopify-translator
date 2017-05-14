@@ -7,6 +7,7 @@ LANGUAGES['fr'] = {
       'orders': 'Commandes',
       'drafts': 'Pré-commandes',
       'checkouts': 'Abandons',
+      'abandoned-checkouts': 'Checkouts abandonés',
       'products': 'Produits',
       'customers': 'Clients',
       'reports': 'Rapports',
@@ -47,6 +48,7 @@ LANGUAGES['fr'] = {
     'buttons': {
       'export': 'Exporter',
       'import': 'Importer',
+      'print': 'Imprimer',
       'save': 'Sauvegarder',
       'edit': 'Éditer',
       'cancel': 'Annuler',
@@ -60,6 +62,20 @@ LANGUAGES['fr'] = {
   'modal': {
     'titles': {
       'capture-payment': "Capturer un paiement",
+    },
+  },
+
+  'shared': {
+    'customer-card': {
+      'customer': 'Client',
+      'shipping-address': 'Adresse de livraison',
+      'billing-address': 'Adresse de facturation',
+      'no-address-set': 'Aucune adresse',
+      'same-as-shipping-address': "Identique à l'adresse de livraison",
+      'accepts-marketing': "Accepte le marketing",
+      'has-an-account': "Possède un compte",
+      'contact': "Contact",
+      'view-map': "Voir sur la carte",
     },
   },
 
@@ -155,14 +171,56 @@ LANGUAGES['fr'] = {
       'capture-payment': "Capturer",
       'restock': "Restaurer l'inventaire",
       'fulfill-items': "Compléter",
+      'resend-email': "Réenvoyer le courriel",
+      'mark-as-paid': "Marquer comme payé",
     },
 
     'titles': {
       'order-details': 'Détails',
+      'conversion-details': 'Détails de conversion',
       'unfulfilled': 'Non complétés',
       'accept-payment': 'Paiement',
       'fulfill-items': 'Compléter',
-      'risk-level': 'Niveau de risque'
+      'risk-level': 'Niveau de risque',
+      'customer': 'Client',
+      'tags': 'Tags',
+      'order-contact': 'Contact',
+      'timeline': 'Chronologie',
+      'payment-pending': 'Paiement en attente',
+    },
+
+    'texts': {
+      'show-comments': "Montrer les commentaires",
+    },
+  },
+
+  'checkouts-index': {
+    'table': {
+      'tabs': {
+        'all-checkouts': "Tous les checkouts",
+      },
+
+      'columns': {
+        'checkout': 'Commande',
+        'date': 'Date',
+        'placed-by': 'Client',
+        'email-status': 'Courriel',
+        'recovery-status': 'Statut',
+        'total': 'Total',
+      },
+
+      'badges': {
+        'sent': 'Envoyé',
+        'recovered': 'Récupéré',
+        'not-recovered': 'Non récupéré',
+        'not-sent': 'Non envoyé',
+      },
+    },
+  },
+
+  'checkouts-show': {
+    'buttons': {
+      'send-a-cart-recovery-email': 'Envoyer un courriel'
     },
   },
 
@@ -187,7 +245,24 @@ LANGUAGES['fr'] = {
 
   'draft': {
     'buttons': {
-      'save-draft-order': 'Sauvegarder la commande'
-    }
+      'save-draft-order': 'Sauvegarder la commande',
+      'browse-products': "Parcourir les produits",
+      'add-custom-item': "Ajouter un article personnalisé",
+      'view-all-tags': "Voir tous les tags",
+      'add-discount': "Ajouter un rabais",
+      'add-shipping': "Ajouter du shipping",
+      'taxes': "Taxes",
+      'email-invoice': "Envoyer",
+      'mark-as-paid': "Marquer comme payé",
+      'mark-as-pending': "Marquer comme en attente",
+      'pay-with-credit-card': "Payer par carte de crédit",
+    },
+
+    'titles': {
+      'order-details': 'Détails',
+      'find-or-create-a-customer': 'Trouver ou créer un client',
+      'email-invoice': 'Envoyer la facture par courriel',
+      'accept-payment': 'Paiement',
+    },
   },
 }
