@@ -47,19 +47,37 @@ LANGUAGES['ja'] = {
     'buttons': {
       'export': 'エクスポート',
       'import': 'インポート',
+      'print': '印刷',
       'save': '保存',
+      'duplicate': '複製',
       'edit': '編集',
       'cancel': 'キャンセル',
       'change': '変更',
       'destroy': "削除",
       'post': '投稿する',
-      'filter': 'フィルター'
+      'filter': 'フィルター',
+      'deactivate': "無効化",
     }
   },
 
   'modal': {
     'titles': {
       'capture-payment': "支払いを確定",
+    },
+  },
+
+  'shared': {
+    'customer-card': {
+      'customer': '顧客',
+      'shipping-address': '配送先住所',
+      'billing-address': '請求先住所',
+      'no-address-set': '住所が登録されていません。',
+      'same-as-shipping-address': "配送先住所と同じ",
+      'accepts-marketing': "マーケティングメールを受け付ける",
+      'has-an-account': "アカウントあり",
+      'no-account': "アカウントなし",
+      'contact': "お問い合わせ",
+      'view-map': "地図を見る",
     },
   },
 
@@ -81,7 +99,7 @@ LANGUAGES['ja'] = {
     },
 
     'buttons': {
-      'all-channels': "Tous les cannaux",
+      'all-channels': "全てのチャネル",
       'online-store': "オンラインストア",
       'view-order': "注文を確認",
       'view-orders': "注文を確認",
@@ -114,7 +132,7 @@ LANGUAGES['ja'] = {
 
       'columns': {
         'order': '注文',
-        'date': '日付',
+        'date': '日時',
         'customer': '顧客',
         'payment-status': '支払い状況',
         'fulfillment-status': '配送状況',
@@ -124,7 +142,7 @@ LANGUAGES['ja'] = {
       'badges': {
         'fulfilled': '配送済',
         'unfulfilled': '未配送',
-        'paid': '支払い済',
+        'paid': '支払済',
         'pending': '保留',
         'refunded': '返金済',
         'authorized': "オーソリ済"
@@ -155,14 +173,62 @@ LANGUAGES['ja'] = {
       'capture-payment': "支払いを確定",
       'restock': "在庫補充",
       'fulfill-items': "配送済にする",
+      'resend-email': "メールの再送",
+      'mark-as-paid': "支払済にする",
     },
 
     'titles': {
       'order-details': '注文詳細',
+      'conversion-details': 'コンバージョン詳細',
       'unfulfilled': '未配送',
       'accept-payment': '支払いステータス',
       'fulfill-items': '配送ステータス',
-      'risk-level': 'リスクレベル'
+      'risk-level': 'リスクレベル',
+      'customer': '顧客',
+      'tags': 'タグ',
+      'order-contact': '問い合わせ先',
+      'timeline': 'タイムライン',
+      'payment-pending': '支払いペンディング',
+    },
+
+    'texts': {
+      'show-comments': "コメントを表示",
+    },
+  },
+
+  'checkouts-index': {
+    'table': {
+      'tabs': {
+        'all-checkouts': "全てのチェックアウト",
+      },
+
+      'columns': {
+        'checkout': 'チェックアウトID',
+        'date': '日時',
+        'placed-by': 'ユーザー',
+        'email-status': 'メール配信状況',
+        'recovery-status': 'リカバリー状況',
+        'total': '合計金額',
+      },
+
+      'badges': {
+        'sent': '配信済',
+        'scheduled': '予約済',
+        'recovered': 'リカバリー成功',
+        'not-recovered': '未リカバー',
+        'not-sent': '未配信',
+      },
+    },
+  },
+
+  'checkouts-show': {
+    'buttons': {
+      'send-a-cart-recovery-email': 'リカバリーメールを配信する'
+    },
+    'titles': {
+      'checkout-details': 'チェックアウト詳細',
+      'additional-details': '追加詳細',
+      'conversion-details': 'コンバージョン詳細',
     },
   },
 
@@ -187,7 +253,41 @@ LANGUAGES['ja'] = {
 
   'draft': {
     'buttons': {
-      'save-draft-order': '下書きとして保存'
-    }
+      'save-draft-order': '下書きとして保存',
+      'browse-products': "商品を検索",
+      'add-custom-item': "独自アイテムの追加",
+      'view-all-tags': "全てのタグを表示",
+      'add-discount': "割引を追加",
+      'add-shipping': "送料を追加",
+      'taxes': "税額",
+      'email-invoice': "請求書をメール送信",
+      'mark-as-paid': "支払済にする",
+      'mark-as-pending': "支払いをペンディングにする",
+      'pay-with-credit-card': "クレジットカード決済",
+    },
+
+    'titles': {
+      'order-details': '注文詳細',
+      'find-or-create-a-customer': '顧客の検索／作成',
+      'email-invoice': '請求書',
+      'accept-payment': '支払いの受付',
+      'timeline': 'タイムライン',
+      'tags': 'タグ',
+    },
+
+    'texts': {
+      'show-comments': "コメントを表示",
+    },
   },
+
+  'settings-payments': {
+    'titles': {
+      'accept-payments': "決済プロバイダーの設定",
+      'payment-authorization': "支払いの受付方法",
+      'accept-credit-cards': "クレジットカード決済の設定",
+      'alternative-payments': "オルタナティブな支払い方法の設定",
+      'manual-payments': "銀行振込、代引き、独自の支払い方法の設定",
+    },
+  },
+
 }
