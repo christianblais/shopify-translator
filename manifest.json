@@ -1,6 +1,6 @@
 {
   "name": "Shopify Admin Translator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "This translates Shopify Admin into multiple languages",
   "browser_action": {
