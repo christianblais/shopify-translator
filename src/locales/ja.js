@@ -91,6 +91,7 @@ LANGUAGES['ja'] = {
       "todays-total-sales": "本日の売上",
       "todays-visits": "本日の来訪者数",
       "todays-orders": "本日の注文数",
+      "view-summary": "概要を見る",
     },
 
     'titles': {
