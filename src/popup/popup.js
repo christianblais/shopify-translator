@@ -14,6 +14,9 @@ document.querySelectorAll('a[data-lang]').forEach(function(element) {
   element.addEventListener('click', function(event) {
     chrome.storage.sync.set({'language': event.target.getAttribute('data-lang')}, function() {
       updateCurrentLang();
+
+      // refresh current tab for changes to take effect
+      chrome.tabs.reload();
     });
   });
 });
