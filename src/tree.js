@@ -1,20 +1,10 @@
 var TREE = {
-  '.next-nav': {
-    '.next-nav__panel--primary': {
-      '[data-nav-section]': {
-        '.next-nav__text': 'general.sections.$data-nav-section'
-      },
-
-      '.next-nav__heading-item .next-nav__text': 'general.sections.$text',
-      '#primary-nav-search-input': 'general.search.placeholder',
+  '.ui-nav': {
+    '.ui-nav__item': {
+      '.ui-nav__label': 'general.sections.$text',
     },
 
-    '.next-nav__panel--secondary': {
-      '[data-nav-section]': {
-        '.next-nav__item--header h3': 'general.sections.$data-nav-section',
-        '[data-nav-sub-item]': 'general.sections.$data-nav-sub-item'
-      },
-    }
+    '.ui-subheading': 'general.sections.$text',
   },
 
   '.ui-feed': {
