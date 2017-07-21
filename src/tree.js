@@ -13,6 +13,14 @@ var TREE = {
     }
   },
 
+  '.ui-top-bar': {
+    'input[type=search]': 'general.search.placeholder',
+    '.ui-popover': {
+      '.ui-action-list-action__text': 'general.account.$text',
+      '.ui-action-list-action__text .ui-stack-item span': 'general.account.$text',
+    },
+  },
+
   '.modal': {
     '#ModalTitle': 'modal.titles.$text',
   },
@@ -52,6 +60,8 @@ var TREE = {
     '.ui-popover .next-list__item': '$page.buttons.$text',
     '.table-filter-container': {
       'input[name=query]': 'general.search.placeholder',
+      'button': 'shared.filters.action',
+      '.filter-heading': 'shared.filters.description',
       '.ui-select option': '$page.filters.$text',
     },
   },

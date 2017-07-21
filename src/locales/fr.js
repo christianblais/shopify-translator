@@ -45,6 +45,15 @@ LANGUAGES['fr'] = {
       'placeholder': 'Recherche',
     },
 
+    'account': {
+      'your-profile': 'Votre compte',
+      'log-out': 'Déconnexion',
+      'shopify-help-center': "Centre d'aide",
+      'community-forums': 'Forums',
+      'hire-a-shopify-expert': 'Engager un expert Shopify',
+      'keyboard-shortcuts': 'Raccourcis clavier',
+    },
+
     'buttons': {
       'export': 'Exporter',
       'import': 'Importer',
@@ -77,6 +86,11 @@ LANGUAGES['fr'] = {
       'contact': "Contact",
       'view-map': "Voir sur la carte",
     },
+
+    'filters': {
+      'action': 'Filtrer',
+      'description': 'Montrer tous les items avec:',
+    }
   },
 
   'home-index': {
@@ -148,10 +162,13 @@ LANGUAGES['fr'] = {
     },
 
     'filters': {
+      'select-a-filter...': 'Sélectionner un filtre',
       'status': "Statut",
       'credit-card': "Carte de crédit",
+      'chargeback-and-inquiry-status': "Rebondissements et enquêtes",
       'customer': "Client",
-      'payment-status': "Payment",
+      'payment-status': "Paiement",
+      'sales-channel': "Canaux de vente",
       'fulfillment-status': "Statut de complétion",
       'tagged-with': "Avec tags...",
       'risk-level': "Niveau de risque",
