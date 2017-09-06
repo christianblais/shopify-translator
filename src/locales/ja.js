@@ -1,84 +1,96 @@
 if (typeof LANGUAGES === 'undefined') { var LANGUAGES = {} }
 
-LANGUAGES['ja'] = {
+LANGUAGES['fr'] = {
   'general': {
     'sections': {
-      'home': 'ホーム',
-      'orders': '注文管理',
-      'drafts': '下書き',
-      'checkouts': 'カゴ落ち',
-      'products': '商品管理',
-      'customers': '顧客管理',
-      'reports': 'レポート',
-      'discounts': '割引管理',
-      'sales-channels': '販売チャネル',
-      'channels': 'チャネル',
-      'online_store': 'オンラインストア',
-      'buy_button': 'Buy Button',
-      'mobile_app': "スマホアプリ",
-      'pos': "POS",
-      'apps': "App管理",
-      'settings': "設定",
-      'online_preferences': "各種設定",
-      'themes': "テーマ",
-      'blogs': "ブログ",
-      'pages': "ページ",
-      'navigation': "メニュー",
-      'domains': "ドメイン",
-      'inventory': "在庫管理",
-      'inventory_transfers': "在庫の移動",
-      'collections': "コレクション",
-      'gift_cards': "ギフトカード",
-      'files': "ファイル",
-      'taxes': "税設定",
-      'checkout': "決済画面",
-      'general': "一般設定",
-      'payments': "支払い",
-      'shipping': "配送",
-      'notifications': "通知",
-      'plan': "プラン",
-      'account': "アカウント",
+      'home': 'Tableau de bord',
+      'orders': 'Commandes',
+      'drafts': 'Pré-commandes',
+      'checkouts': 'Abandons',
+      'abandoned-checkouts': 'Checkouts abandonés',
+      'products': 'Produits',
+      'customers': 'Clients',
+      'reports': 'Rapports',
+      'discounts': 'Promotions',
+      'sales-channels': 'Canaux de vente',
+      'channels': 'Canaux de vente',
+      'online-store': 'Boutique en ligne',
+      'buy-button': 'Buy Button',
+      'mobile-app': "App mobile",
+      'pos': "Points de vente",
+      'apps': "Applications",
+      'settings': "Configuration",
+      'online_preferences': "Préférences",
+      'themes': "Thèmes",
+      'blogs': "Blogues",
+      'pages': "Pages",
+      'navigation': "Navigation",
+      'domains': "Domaines",
+      'inventory': "Inventaire",
+      'inventory_transfers': "Transferts",
+      'collections': "Collections",
+      'gift-cards': "Cartes Cadeaux",
+      'files': "Fichiers",
+      'taxes': "Taxes",
+      'checkout': "Paniers",
+      'general': "Général",
+      'payments': "Paiements",
+      'shipping': "Livraison",
+      'notifications': "Notifications",
+      'plan': "Profile",
+      'account': "Profile",
     },
 
     'search': {
-      'placeholder': '検索',
+      'placeholder': 'Recherche',
+    },
+
+    'account': {
+      'your-profile': 'Votre compte',
+      'log-out': 'Déconnexion',
+      'shopify-help-center': "Centre d'aide",
+      'community-forums': 'Forums',
+      'hire-a-shopify-expert': 'Engager un expert Shopify',
+      'keyboard-shortcuts': 'Raccourcis clavier',
     },
 
     'buttons': {
-      'export': 'エクスポート',
-      'import': 'インポート',
-      'print': '印刷',
-      'save': '保存',
-      'duplicate': '複製',
-      'edit': '編集',
-      'cancel': 'キャンセル',
-      'change': '変更',
-      'destroy': "削除",
-      'post': '投稿する',
-      'filter': 'フィルター',
-      'deactivate': "無効化",
+      'export': 'Exporter',
+      'import': 'Importer',
+      'print': 'Imprimer',
+      'save': 'Sauvegarder',
+      'edit': 'Éditer',
+      'cancel': 'Annuler',
+      'change': 'Changer',
+      'destroy': "Détruire",
+      'post': 'Envoyer',
+      'filter': 'Filtrer'
     }
   },
 
   'modal': {
     'titles': {
-      'capture-payment': "支払いを確定",
+      'capture-payment': "Capturer un paiement",
     },
   },
 
   'shared': {
     'customer-card': {
-      'customer': '顧客',
-      'shipping-address': '配送先住所',
-      'billing-address': '請求先住所',
-      'no-address-set': '住所が登録されていません。',
-      'same-as-shipping-address': "配送先住所と同じ",
-      'accepts-marketing': "マーケティングメールを受け付ける",
-      'has-an-account': "アカウントあり",
-      'no-account': "アカウントなし",
-      'contact': "お問い合わせ",
-      'view-map': "地図を見る",
+      'customer': 'Client',
+      'shipping-address': 'Adresse de livraison',
+      'billing-address': 'Adresse de facturation',
+      'no-address-set': 'Aucune adresse',
+      'same-as-shipping-address': "Identique à l'adresse de livraison",
+      'accepts-marketing': "Accepte le marketing",
+      'has-an-account': "Possède un compte",
+      'contact': "Contact",
+      'view-map': "Voir sur la carte",
     },
+
+    'filters': {
+      'action': 'Filtrer',
+      'description': 'Montrer tous les items avec:',
+    }
   },
 
   'home-index': {
@@ -88,207 +100,186 @@ LANGUAGES['ja'] = {
     },
 
     'today-features': {
-      "todays-total-sales": "本日の売上",
-      "todays-visits": "本日の来訪者数",
-      "todays-orders": "本日の注文数",
-      "view-summary": "概要を見る",
+      "todays-total-sales": "Total des ventes aujourd'hui",
+      "todays-visits": "Nombre de visites aujourd'hui",
+      "todays-orders": "Nombre de commandes aujourd'hui",
     },
 
     'titles': {
-      'total-sales': "売上総額",
-      'top-products': "売れてる商品",
+      'total-sales': "Total des ventes",
+      'top-products': "Meilleurs produits",
     },
 
     'buttons': {
-      'all-channels': "全てのチャネル",
-      'online-store': "オンラインストア",
-      'view-order': "注文を確認",
-      'view-orders': "注文を確認",
-      'create-button': "ボタンを作成",
-      'create-buy-button': "Buy Buttonを作成",
-      'learn-more': "続きを読む"
+      'all-channels': "Tous les cannaux",
+      'online-store': "Boutique en ligne",
+      'view-order': "Voir la commande",
+      'view-orders': "Voir les commandes",
+      'create-button': "Créer un Buy Button",
+      'create-buy-button': "Créer un Buy Button",
+      'learn-more': "En apprendre plus"
     }
   },
 
   'products-index': {
     'table': {
       'tabs': {
-        'all-products': "すべての商品",
+        'all-products': "Tous les produits",
       },
     },
 
     'buttons': {
-      'add-product': "商品を追加",
+      'add-product': "Ajouter un produit",
     },
   },
 
   'orders-index': {
     'table': {
       'tabs': {
-        'all-orders': "すべての注文",
-        'open': "オープンな注文",
-        'unfulfilled': "未配送",
-        'unpaid': "未払い",
+        'all-orders': "Toutes les commandes",
+        'open': "Ouvertes",
+        'unfulfilled': "Remplies",
+        'unpaid': "Non payées",
       },
 
       'columns': {
-        'order': '注文',
-        'date': '日時',
-        'customer': '顧客',
-        'payment-status': '支払い状況',
-        'fulfillment-status': '配送状況',
-        'total': '合計',
+        'order': 'Commande',
+        'date': 'Date',
+        'customer': 'Client',
+        'payment-status': 'Payment',
+        'fulfillment-status': 'Statut',
+        'total': 'Total',
       },
 
       'badges': {
-        'fulfilled': '配送済',
-        'unfulfilled': '未配送',
-        'paid': '支払済',
-        'pending': '保留',
-        'refunded': '返金済',
-        'authorized': "オーソリ済"
+        'fulfilled': 'Complétée',
+        'unfulfilled': 'Non complétée',
+        'paid': 'Payée',
+        'pending': 'En attente',
+        'refunded': 'Remboursée',
+        'authorized': "Authorisée"
       },
     },
 
     'filters': {
-      'status': "ステータス",
-      'credit-card': "クレジットカード",
-      'customer': "顧客",
-      'payment-status': "支払い状況",
-      'fulfillment-status': "配送状況",
-      'tagged-with': "付いてるタグ",
-      'risk-level': "リスクレベル",
+      'select-a-filter...': 'Sélectionner un filtre',
+      'status': "Statut",
+      'credit-card': "Carte de crédit",
+      'chargeback-and-inquiry-status': "Rebondissements et enquêtes",
+      'customer': "Client",
+      'payment-status': "Paiement",
+      'sales-channel': "Canaux de vente",
+      'fulfillment-status': "Statut de complétion",
+      'tagged-with': "Avec tags...",
+      'risk-level': "Niveau de risque",
     },
 
     'buttons': {
-      'create-order': "注文を作成",
+      'create-order': "Ajouter une commande",
     },
   },
 
   'orders-show': {
     'buttons': {
-      'print': "印刷",
-      'cancel-order': "注文をキャンセル",
-      'archive': "アーカイブ",
-      'view-order-status-page': "注文ステータスを確認",
-      'capture-payment': "支払いを確定",
-      'restock': "在庫補充",
-      'fulfill-items': "配送済にする",
-      'resend-email': "メールの再送",
-      'mark-as-paid': "支払済にする",
+      'print': "Imprimer",
+      'cancel-order': "Canceller",
+      'archive': "Archiver",
+      'view-order-status-page': "Voir la page de statut de la commande",
+      'capture-payment': "Capturer",
+      'restock': "Restaurer l'inventaire",
+      'fulfill-items': "Compléter",
+      'resend-email': "Réenvoyer le courriel",
+      'mark-as-paid': "Marquer comme payé",
     },
 
     'titles': {
-      'order-details': '注文詳細',
-      'conversion-details': 'コンバージョン詳細',
-      'unfulfilled': '未配送',
-      'accept-payment': '支払いステータス',
-      'fulfill-items': '配送ステータス',
-      'risk-level': 'リスクレベル',
-      'customer': '顧客',
-      'tags': 'タグ',
-      'order-contact': '問い合わせ先',
-      'timeline': 'タイムライン',
-      'payment-pending': '支払いペンディング',
+      'order-details': 'Détails',
+      'conversion-details': 'Détails de conversion',
+      'unfulfilled': 'Non complétés',
+      'accept-payment': 'Paiement',
+      'fulfill-items': 'Compléter',
+      'risk-level': 'Niveau de risque',
+      'customer': 'Client',
+      'tags': 'Tags',
+      'order-contact': 'Contact',
+      'timeline': 'Chronologie',
+      'payment-pending': 'Paiement en attente',
     },
 
     'texts': {
-      'show-comments': "コメントを表示",
+      'show-comments': "Montrer les commentaires",
     },
   },
 
   'checkouts-index': {
     'table': {
       'tabs': {
-        'all-checkouts': "全てのチェックアウト",
+        'all-checkouts': "Tous les checkouts",
       },
 
       'columns': {
-        'checkout': 'チェックアウトID',
-        'date': '日時',
-        'placed-by': 'ユーザー',
-        'email-status': 'メール配信状況',
-        'recovery-status': 'リカバリー状況',
-        'total': '合計金額',
+        'checkout': 'Commande',
+        'date': 'Date',
+        'placed-by': 'Client',
+        'email-status': 'Courriel',
+        'recovery-status': 'Statut',
+        'total': 'Total',
       },
 
       'badges': {
-        'sent': '配信済',
-        'scheduled': '予約済',
-        'recovered': 'リカバリー成功',
-        'not-recovered': '未リカバー',
-        'not-sent': '未配信',
+        'sent': 'Envoyé',
+        'recovered': 'Récupéré',
+        'not-recovered': 'Non récupéré',
+        'not-sent': 'Non envoyé',
       },
     },
   },
 
   'checkouts-show': {
     'buttons': {
-      'send-a-cart-recovery-email': 'リカバリーメールを配信する'
-    },
-    'titles': {
-      'checkout-details': 'チェックアウト詳細',
-      'additional-details': '追加詳細',
-      'conversion-details': 'コンバージョン詳細',
+      'send-a-cart-recovery-email': 'Envoyer un courriel'
     },
   },
 
   'customers-show': {
     'titles': {
-      'recent-orders': "最近の注文",
-      'default-address': "デフォルト住所",
-      'contact': "問い合わせる",
+      'recent-orders': "Commandes récentes",
+      'default-address': "Addresse principale",
+      'contact': "Information",
     },
   },
 
   'draft-orders-index': {
     'buttons': {
-      'create-order': '注文を作成'
+      'create-order': 'Créer une commande'
     },
 
     'empty': {
-      'title': '注文・請求書の作成',
-      'subtitle': '電話で受注し、請求書をメールし、集金できます。'
+      'title': 'Créer des commandes et factures',
+      'subtitle': 'Acceptez des commandes au téléphone, envoyez des factures par courriel et acceptez des paiements.'
     }
   },
 
   'draft': {
     'buttons': {
-      'save-draft-order': '下書きとして保存',
-      'browse-products': "商品を検索",
-      'add-custom-item': "独自アイテムの追加",
-      'view-all-tags': "全てのタグを表示",
-      'add-discount': "割引を追加",
-      'add-shipping': "送料を追加",
-      'taxes': "税額",
-      'email-invoice': "請求書をメール送信",
-      'mark-as-paid': "支払済にする",
-      'mark-as-pending': "支払いをペンディングにする",
-      'pay-with-credit-card': "クレジットカード決済",
+      'save-draft-order': 'Sauvegarder la commande',
+      'browse-products': "Parcourir les produits",
+      'add-custom-item': "Ajouter un article personnalisé",
+      'view-all-tags': "Voir tous les tags",
+      'add-discount': "Ajouter un rabais",
+      'add-shipping': "Ajouter du shipping",
+      'taxes': "Taxes",
+      'email-invoice': "Envoyer",
+      'mark-as-paid': "Marquer comme payé",
+      'mark-as-pending': "Marquer comme en attente",
+      'pay-with-credit-card': "Payer par carte de crédit",
     },
 
     'titles': {
-      'order-details': '注文詳細',
-      'find-or-create-a-customer': '顧客の検索／作成',
-      'email-invoice': '請求書',
-      'accept-payment': '支払いの受付',
-      'timeline': 'タイムライン',
-      'tags': 'タグ',
-    },
-
-    'texts': {
-      'show-comments': "コメントを表示",
+      'order-details': 'Détails',
+      'find-or-create-a-customer': 'Trouver ou créer un client',
+      'email-invoice': 'Envoyer la facture par courriel',
+      'accept-payment': 'Paiement',
     },
   },
-
-  'settings-payments': {
-    'titles': {
-      'accept-payments': "決済プロバイダーの設定",
-      'payment-authorization': "支払いの受付方法",
-      'accept-credit-cards': "クレジットカード決済の設定",
-      'alternative-payments': "オルタナティブな支払い方法の設定",
-      'manual-payments': "銀行振込、代引き、独自の支払い方法の設定",
-    },
-  },
-
 }
