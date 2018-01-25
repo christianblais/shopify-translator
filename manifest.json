@@ -19,6 +19,7 @@
         "src/locales/ja.js",
         "src/locales/de-DE.js",
         "src/locales/ru.js",
+        "src/locales/ch.js",
         "src/main.js"
       ]
     }
